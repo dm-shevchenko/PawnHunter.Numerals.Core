@@ -12,10 +12,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>Add support .NET Standard 2.0, some refactoring</PackageReleaseNotes>
     <Company>HotMinds</Company>
-    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <Version>1.1.0</Version>
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
